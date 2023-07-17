@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructChunk", "lib\StructChunk.csproj", "{33DC9D1D-43E3-4A86-8541-C3751DFD2639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "tests\Tests.csproj", "{DF58A113-E893-47A9-BD5B-9346E05A5EB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33DC9D1D-43E3-4A86-8541-C3751DFD2639} = {33DC9D1D-43E3-4A86-8541-C3751DFD2639}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{57514869-6230-47FC-AB90-33B0195E9D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DC9D1D-43E3-4A86-8541-C3751DFD2639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DC9D1D-43E3-4A86-8541-C3751DFD2639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DC9D1D-43E3-4A86-8541-C3751DFD2639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DC9D1D-43E3-4A86-8541-C3751DFD2639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF58A113-E893-47A9-BD5B-9346E05A5EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF58A113-E893-47A9-BD5B-9346E05A5EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF58A113-E893-47A9-BD5B-9346E05A5EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF58A113-E893-47A9-BD5B-9346E05A5EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57514869-6230-47FC-AB90-33B0195E9D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57514869-6230-47FC-AB90-33B0195E9D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57514869-6230-47FC-AB90-33B0195E9D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57514869-6230-47FC-AB90-33B0195E9D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
