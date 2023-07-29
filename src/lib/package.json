@@ -1,0 +1,17 @@
+{
+  "name": "com.outbreakstudios.structchunk",
+  "version": "0.0.1",
+  "displayName": "Outbreak Studios - Struct Chunker",
+  "description": "Copies structs to a snapshot buffer",
+  "unity": "2022.2",
+  "dependencies": {
+    "com.unity.entities": "1.0.11",
+    "com.outbreakstudios.blitser.base": "0.0.1"
+  },
+  "author": {
+    "name": "Outbreak Studios",
+    "email": "info@outbreakstudios.com",
+    "url": "https://outbreakstudios.com"
+  },
+  "license": "MIT"
+}
